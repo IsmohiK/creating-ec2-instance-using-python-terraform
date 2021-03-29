@@ -9,7 +9,7 @@ import sys
 
 def PythonTerraform():
 	#### Reading teh manifest file for E2 config ####
-	with open("terraform_automation\\EC2_manifest.yaml", "r") as f:
+	with open("scripts\\EC2_manifest.yaml", "r") as f:
 		config = yaml.safe_load(f)
 		f.close()
 	vars_dict = {
