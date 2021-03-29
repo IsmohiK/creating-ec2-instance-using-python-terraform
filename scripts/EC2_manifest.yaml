@@ -1,0 +1,9 @@
+description: Create EC2 using terraform
+params:
+  default:
+    RoleArn: arn:aws:iam::785358019570:role/EC2_admin_role
+    ami-name: ami-05b622b5fa0269787
+    desiredCapacity: 1
+    instance_type: t2.micro
+    region: us-west-2
+    resourceName: demo_app
